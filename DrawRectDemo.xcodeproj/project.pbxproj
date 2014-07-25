@@ -25,6 +25,8 @@
 		521DBA27190A07B200995810 /* MyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 521DBA26190A07B200995810 /* MyView.m */; };
 		521DBA2A190A091C00995810 /* TriangleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 521DBA29190A091C00995810 /* TriangleView.m */; };
 		52AA90E6190E46CF00D14EC0 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52AA90E5190E46CF00D14EC0 /* QuartzCore.framework */; };
+		F4FD65D4198233EE00F9A20E /* TestView.m in Sources */ = {isa = PBXBuildFile; fileRef = F4FD65D2198233EE00F9A20E /* TestView.m */; };
+		F4FD65D5198233EE00F9A20E /* TestView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4FD65D3198233EE00F9A20E /* TestView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +65,9 @@
 		521DBA28190A091C00995810 /* TriangleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TriangleView.h; sourceTree = "<group>"; };
 		521DBA29190A091C00995810 /* TriangleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TriangleView.m; sourceTree = "<group>"; };
 		52AA90E5190E46CF00D14EC0 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		F4FD65D1198233EE00F9A20E /* TestView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestView.h; sourceTree = "<group>"; };
+		F4FD65D2198233EE00F9A20E /* TestView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestView.m; sourceTree = "<group>"; };
+		F4FD65D3198233EE00F9A20E /* TestView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +98,9 @@
 		521DB9E1190A07A400995810 = {
 			isa = PBXGroup;
 			children = (
+				F4FD65D1198233EE00F9A20E /* TestView.h */,
+				F4FD65D2198233EE00F9A20E /* TestView.m */,
+				F4FD65D3198233EE00F9A20E /* TestView.xib */,
 				521DBA28190A091C00995810 /* TriangleView.h */,
 				521DBA29190A091C00995810 /* TriangleView.m */,
 				521DBA25190A07B200995810 /* MyView.h */,
@@ -248,6 +256,7 @@
 				521DBA04190A07A400995810 /* Main_iPad.storyboard in Resources */,
 				521DBA09190A07A400995810 /* Images.xcassets in Resources */,
 				521DBA01190A07A400995810 /* Main_iPhone.storyboard in Resources */,
+				F4FD65D5198233EE00F9A20E /* TestView.xib in Resources */,
 				521DB9F8190A07A400995810 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -271,6 +280,7 @@
 				521DBA07190A07A400995810 /* ViewController.m in Sources */,
 				521DBA2A190A091C00995810 /* TriangleView.m in Sources */,
 				521DB9FE190A07A400995810 /* AppDelegate.m in Sources */,
+				F4FD65D4198233EE00F9A20E /* TestView.m in Sources */,
 				521DB9FA190A07A400995810 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
